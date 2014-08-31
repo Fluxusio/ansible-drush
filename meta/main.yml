@@ -1,14 +1,15 @@
 ---
 galaxy_info:
   author: Rob Knight
-  description: Ansible role for installing and configuring Apache
+  description: Ansible role for installing and configuring Drush
   license: MIT
   min_ansible_version: 1.4
   platforms:
     - Ubuntu 14.04
   categories:
     - web
-    - apache
+    - drupal
+    - drush
 
 dependencies:
   - { role: composer }
